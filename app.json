@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "simpletalk-mobile",
+    "slug": "simpletalk-mobile",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "orientation": "portrait",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "QR 스캔을 위해 카메라 접근이 필요합니다."
+      }
+    },
+    "android": {
+      "permissions": [
+        "CAMERA"
+      ]
+    }
+
+  }
+}
